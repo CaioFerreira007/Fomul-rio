@@ -1,0 +1,306 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background: rgba(187, 180, 194, 0.699);
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+.page input {
+  padding: 10px;
+}
+
+header {
+  width: 417px;
+}
+
+header h1 {
+  margin-top: 140px;
+  font-size: 48px;
+
+  font-weight: bold;
+
+  color: #fff;
+}
+
+header p {
+  margin-top: -18px;
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 400;
+}
+form {
+  margin-top: 58px;
+  width: 750px;
+  height: 1084px;
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+  padding-left: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e6f0;
+  font-weight: bold;
+  width: 622px;
+  padding-bottom: 16px;
+}
+
+.input-wrapper {
+  margin-top: 36px;
+}
+.form-container {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper label {
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 42.97px;
+  height: 24px;
+  margin-top: 52px;
+}
+
+.input-wrapper input {
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  width: 300px;
+  height: 56px;
+}
+
+.input-second {
+  color: #4e4958;
+
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.input-second label {
+  margin-top: 16px;
+}
+
+.page span {
+  color: #c1bccc;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+span:hover {
+  color: #000000;
+}
+.input-second input {
+  width: 622px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+}
+
+.senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.mentoria legend {
+  border: none;
+}
+
+.mentoria label {
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  line-height: 34px;
+  margin-top: 40px;
+}
+
+.mentoria input {
+  width: 622px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+}
+.input-3 legend {
+  border: none;
+}
+
+.horario {
+  display: flex;
+  gap: 32px;
+ 
+}
+.horario input{
+  padding: 0;
+}
+
+.input-3 label {
+  display: flex;
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 7px;
+}
+.input-3 label span {
+  display: flex;
+
+  padding-top: 2px;
+}
+
+.date input {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+.time-initial input {
+  width: 140px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+
+.end-time input {
+  width: 140px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+
+.primeiro-horario {
+  margin-top: 40px;
+}
+
+/* outra parte dos inputs*/
+
+
+
+
+
+.input-4 legend {
+  border: none;
+  margin-top: 16px;
+}
+
+.horario-2 {
+  display: flex;
+  gap: 32px;
+  
+}
+.horario-2 input{
+padding: 0;
+}
+
+.input-4 label {
+  display: flex;
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 7px;
+}
+.input-4 label span {
+  display: flex;
+
+  padding-top: 2px;
+}
+
+.date-2 input {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+.time-initial-2 input {
+  width: 140px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+
+.end-time-2 input {
+  width: 140px;
+  height: 56px;
+  border-radius: 8px;
+  border-color: rgb(122, 122, 177);
+  text-align: center;
+}
+
+.primeiro-horario {
+  margin-top: 40px;
+}
+
+
+
+footer{
+  width: 814px;
+height: 160px;
+
+border-radius: 0px 0px 20px 20px;
+background: #535971;
+display: flex;
+flex-direction: column;
+
+
+}
+
+footer input{
+  border: none;
+  color: white;
+display: flex;
+width: 608px;
+height: 55.652px;
+padding: 15px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FF5374;
+margin: auto;
+}
+ footer input:hover{
+  background: #fc3e64;
+ }
+ input:invalid{
+  border: 2px solid red;
+ }
